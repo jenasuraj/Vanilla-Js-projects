@@ -1,0 +1,53 @@
+html
+{
+  background-color: green;
+}
+  h1,h2{
+      color: rgb(75, 118, 9);
+  }
+  #btn
+  {
+      background-color: yellow;
+      color: green;
+      border-radius: 20px;
+      size: 50px;
+      height: 40px;
+      width: 150px;
+      position: absolute;
+      position: absolute;
+      margin-left: 70px;
+  }
+  #btn2
+  {
+      background-color: yellow;
+      color: green;
+      border-radius: 20px;
+      size: 50px;
+      height: 40px;
+      width: 150px;
+      position: relative;
+   margin-top: 50px;   
+   margin-left: 70px;
+  }
+  #main
+  {
+   background-color: bisque;
+   width: 300px;
+   height: 400px;
+   border-radius: 20px;
+   position: absolute;
+   margin-left: 600px;
+   margin-top: 170px;
+  
+
+  }
+  #para
+  {
+    color: red;
+  }
+  #one,#message,#fashion,#collection,#btn,#btn-2,#para,#playerk
+  {
+    display: flex;
+justify-content: center;
+align-items: center;
+  }
