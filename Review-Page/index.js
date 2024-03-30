@@ -48,7 +48,7 @@ const reviews = [
   //});
   function showPerson(person)
   {
-      const item=reviews[currentItem];
+      const item=reviews[currentItem]; 
       img.src=item.img;
       author.textContent=item.name;
       job.textContent=item.job;
