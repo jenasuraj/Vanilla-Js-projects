@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 156px; /* Adjusted height */
+            width: 156px; /* Fixed width to accommodate 3 boxes */
+            flex-wrap: wrap;
+        }
+        .cell {
+            height: 50px;
+            width: 50px;
+            background-color: rgb(248, 243, 243);
+            border: 2px solid rgb(18, 14, 14);
+            box-sizing: border-box; /* Ensures borders are included in the width */
+            margin: 0; /* Removed margin */
+            cursor: pointer;
+        }
+        #Red {
+            color: red;
+        }
+        #Green {
+            color: greenyellow;
+        }
+        #btn,#btn1,#btn2
+        {
+            height: 30px;
+            width: 200px;
+            border-radius: 20px;
+           
+        }
+        #btn:hover,#btn1:hover,#btn2:hover
+        {
+            color: whitesmoke;
+            background-color: black;
+            cursor: pointer;   
+        }
+        #text1,#text2
+        {
+          height: 10 px;
+          width: 70px;
+          border: 2px solid black;
+        }
+    </style>
+</head>
+<body>
+    <div id="container">
+        <label for="Player 1"></label>
+        <input type="text"  id="text1" value="" placeholder="player 1"><br><button id="btn1">Click here</button>
+        <label for="Player 2"></label>
+        <input type="text"  id="text2" value="" placeholder="player 2"> <br><button id="btn2">Click here</button>
+        <h1 id="Red">Red is you:</h1>
+        <h1 id="Green">Green is ?:</h1>
+        <div class="cell" data-value="1"></div>
+        <div class="cell" data-value="2"></div>
+        <div class="cell" data-value="3"></div>
+        <div class="cell" data-value="4"></div>
+        <div class="cell" data-value="5"></div>
+        <div class="cell" data-value="6"></div>
+        <div class="cell" data-value="7"></div>
+        <div class="cell" data-value="8"></div>
+        <div class="cell" data-value="9"></div>
+        <h1 id="Winner">Winner:</h1>
+        <button id="btn" onclick="skj()">Refresh</button>
+    </div>
+ 
+    <script src="index.js">
+
+    </script>
+</body>
+</html>
