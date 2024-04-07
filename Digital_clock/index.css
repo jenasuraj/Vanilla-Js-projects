@@ -1,0 +1,19 @@
+html{
+    background-color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: large;
+   
+}
+#knd {
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+height: 100vh; /* Make the container take up the full viewport height */
+color: white;
+border: solid wheat 1px;
+}
+
+#jena, #suraj {
+margin: 0; /* Remove default margins */
+}
